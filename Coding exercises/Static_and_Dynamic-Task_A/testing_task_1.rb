@@ -24,8 +24,8 @@ end             #too many ends
 
 def looper
   for i in 1..10 #brackets for legibility
-  puts i         #puts is for string, print or return will work better
-  end
+  puts i
+end             #return i after for loop ends
 end
 
 failures = 0
